@@ -25,7 +25,7 @@
          "context": [""]
         },
         {"tag": "covid_meaning",
-         "patterns": ["What is coronavirus?", "Give me meaning of coronavirus", "Tell me about coronavirus"],
+         "patterns": ["What is coronavirus?", "Give me the meaning of coronavirus", "Tell me about coronavirus"],
          "responses": ["Coronaviruses are a family of viruses that typically cause mild respiratory infections like the common cold but also more severe (and potentially deadly) infections. They are zoonotic diseases, meaning they are transmitted from animals to people."],
          "context": [""]
         }
