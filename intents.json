@@ -15,7 +15,7 @@
          "context": [""]
         },
         {"tag": "noanswer",
-         "patterns": [""],
+         "patterns": [],
          "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
          "context": [""]
         },
@@ -27,6 +27,21 @@
         {"tag": "covid_meaning",
          "patterns": ["What is coronavirus?", "Give me the meaning of coronavirus", "Tell me about coronavirus"],
          "responses": ["Coronaviruses are a family of viruses that typically cause mild respiratory infections like the common cold but also more severe (and potentially deadly) infections. They are zoonotic diseases, meaning they are transmitted from animals to people."],
+         "context": [""]
+        },
+        {"tag": "covid_origin",
+         "patterns": ["Where did coronavirus came from?", "Where is coronavirus originated?", "How coronavirus started?"],
+         "responses": ["Experts say SARS-CoV-2 originated in bats. That’s also how the coronaviruses behind Middle East respiratory syndrome (MERS) and severe acute respiratory syndrome (SARS) got started."],
+         "context": [""]
+        },
+        {"tag": "covid_vaccines",
+         "patterns": ["Is there a vaccine for coronavirus", "Cure to coronavirus", "Vaccine for coronavirus"],
+         "responses": ["there are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and the number of vaccination doses administered is updated on a daily basis here. At least 13 different vaccines (across 4 platforms) have been administered."],
+         "context": [""]
+        },
+        {"tag": "covid_symptoms",
+         "patterns": ["What are the symptoms for coronavirus?", "Give me the symptoms of coronavirus", "Corona virus symptoms"],
+         "responses": ["They range from fatigue, a cough and shortness of breath, to inflammation and injury of major organs – including the lungs and heart, and also neurological and psychologic effects. Symptoms often overlap and can affect any system in the body."],
          "context": [""]
         }
    ]
