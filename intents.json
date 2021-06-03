@@ -1,4 +1,9 @@
 {"intents": [
+	{"tag": "name",
+         "patterns": ["Who are you?", "What is your name?", "What are you called?"],
+         "responses": ["I am Corvus", "You can call me Corvus", "May name is Corvus"],
+         "context": [""]
+        },
         {"tag": "greeting",
          "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
          "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
