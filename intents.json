@@ -83,6 +83,6 @@
          "patterns": ["Are there treatments?", "Is there a cure?", "Are there treatments for coronavirus?", "Is there a cure for coronavirus?"],
          "responses": ["Rapid antigen tests (sometimes known as a rapid diagnostic test – RDT) detect viral proteins (known as antigens). Samples are collected from the nose and/or throat with a swab. These tests are cheaper than PCR and will offer results more quickly, although they are generally less accurate."],
          "context": [""]
-        },
+        }
    ]
 }
