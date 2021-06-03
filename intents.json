@@ -1,6 +1,6 @@
 {"intents": [
 	{"tag": "name",
-         "patterns": ["Who are you?", "What is your name?", "What are you called?"],
+         "patterns": ["Who are you?", "What is your name?", "What are you called?, "What can I call you?", "How can I call you?"],
          "responses": ["I am Corvus", "You can call me Corvus", "May name is Corvus"],
          "context": [""]
         },
