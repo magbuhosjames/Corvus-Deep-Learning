@@ -45,7 +45,7 @@
          "context": [""]
         },
 	{"tag": "vaccinated",
-         "patterns": ["Where can I get vaccinated?, "Where do I get vaccinated", "Where can I get my vaccine shot?"],
+         "patterns": ["Where can I get vaccinated?", "Where do I get vaccinated", "Where can I get my vaccine shot?"],
          "responses": ["In your local health department."],
          "context": [""]
         },
