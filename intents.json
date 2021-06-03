@@ -44,10 +44,45 @@
          "responses": ["there are now several vaccines that are in use. The first mass vaccination programme started in early December 2020 and the number of vaccination doses administered is updated on a daily basis here. At least 13 different vaccines (across 4 platforms) have been administered."],
          "context": [""]
         },
+	{"tag": "vaccinated",
+         "patterns": ["Where can I get vaccinated?, "Where do I get vaccinated", "Where can I get my vaccine shot?"],
+         "responses": ["In your local health department."],
+         "context": [""]
+        },
         {"tag": "covid_symptoms",
          "patterns": ["What are the symptoms for coronavirus?", "Give me the symptoms of coronavirus", "Corona virus symptoms"],
          "responses": ["They range from fatigue, a cough and shortness of breath, to inflammation and injury of major organs – including the lungs and heart, and also neurological and psychologic effects. Symptoms often overlap and can affect any system in the body."],
          "context": [""]
-        }
+        },
+        {"tag": "breath",
+         "patterns": ["Why does coronavirus cause shortness of breath?", "Why does it cause shortness of breath?", "Why it causes shortness of breath?"],
+         "responses": ["COVID-19 can cause damage to the lungs that impedes their ability to remove oxygen from the air. A lot of patients develop what’s known as severe acute respiratory distress syndrome. And they really benefit from having additional oxygen, particularly in hospital settings. and the number of vaccination doses administered is updated on a daily basis here. At least 13 different vaccines (across 4 platforms) have been administered."],
+         "context": [""]
+        },
+	{"tag": "transmitted",
+         "patterns": ["How coronavirus is transmitted?", "How it is transmitted?"],
+         "responses": ["Coronaviruses are typically transmitted from person to person through exhalation of respiratory droplets (from the nose and mouth) and close contact."],
+         "context": [""]
+        },
+	{"tag": "spread",
+         "patterns": ["How does the virus spread?", "How does it spread?"],
+         "responses": ["The virus that causes COVID-19 is thought to spread mainly from person to person, mainly through respiratory droplets produced when an infected person coughs, sneezes, or talks. These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs. Spread is more likely when people are in close contact with one another (within about 6 feet)."],
+         "context": [""]
+        },
+	{"tag": "test",
+         "patterns": ["When should I get  a test for for coronavirus?", "When should I get a test"],
+         "responses": ["Anyone with symptoms should be tested, wherever possible. People who do not have symptoms but have had close contact with someone who is, or may be, infected may also consider testing – contact your local health guidelines and follow their guidance."],
+         "context": [""]
+        },
+	{"tag": "rapid_test",
+         "patterns": ["What is rapid test?", "What about rapid test?", "What about rapid testing?"],
+         "responses": ["Rapid antigen tests (sometimes known as a rapid diagnostic test – RDT) detect viral proteins (known as antigens). Samples are collected from the nose and/or throat with a swab. These tests are cheaper than PCR and will offer results more quickly, although they are generally less accurate."],
+         "context": [""]
+        },
+	{"tag": "treatment",
+         "patterns": ["Are there treatments?", "Is there a cure?", "Are there treatments for coronavirus?", "Is there a cure for coronavirus?"],
+         "responses": ["Rapid antigen tests (sometimes known as a rapid diagnostic test – RDT) detect viral proteins (known as antigens). Samples are collected from the nose and/or throat with a swab. These tests are cheaper than PCR and will offer results more quickly, although they are generally less accurate."],
+         "context": [""]
+        },
    ]
 }
